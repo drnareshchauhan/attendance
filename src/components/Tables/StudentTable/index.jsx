@@ -15,8 +15,6 @@ import { FILTER_CATEGORY } from "../../../redux/filterSlice";
 import { SEARCH_KEYWORDS } from "../../../redux/searchSlice";
 
 function StudentTable({ schedule_data, type }) {
-  console.log(schedule_data);
-  console.log(type);
   const id_prodi = useSelector((state) => state.prodi.id);
   const filter = useSelector((state) => state.filter.status);
   const search = useSelector((state) => state.search.value);
@@ -52,7 +50,6 @@ function StudentTable({ schedule_data, type }) {
     if (type === "insertStudentToAttendance") {
       setListStudents(
         [...listStudents].map((obj) => {
-          console.log(e.target.value);
           if (obj.npm === parseInt(e.target.value)) {
             return {
               ...obj,
@@ -79,7 +76,6 @@ function StudentTable({ schedule_data, type }) {
     }
   };
 
-  console.log("data", data);
   //DELETE MULTIPLE DATA
   const [showModal, setShowModal] = useState(false);
   const [ShowModalInsert, setShowModalInsert] = useState(false);
