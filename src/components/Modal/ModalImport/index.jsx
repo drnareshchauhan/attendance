@@ -168,7 +168,7 @@ function ModalImport() {
                     <thead className="text-xs sticky top-0 text-gray-700 uppercase bg-primary-white2 dark:bg-primary-black dark:text-gray-400">
                       <tr>
                         <th scope="col" className="px-6 py-3">
-                          NPM
+                          UIN
                         </th>
                         <th scope="col" className="px-6 py-3">
                           Name

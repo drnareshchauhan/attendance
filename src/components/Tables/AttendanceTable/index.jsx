@@ -319,7 +319,7 @@ function AttendanceTable({ schedule_data, role }) {
                 Status
               </th>
               <th scope="col" className="px-6 py-3">
-                NPM
+                UIN
               </th>
               <th scope="col" className="px-6 py-3">
                 Name

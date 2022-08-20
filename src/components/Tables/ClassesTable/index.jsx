@@ -11,7 +11,9 @@ function ClassesTable({ schedule_data }) {
     variables: { schedules_id: schedule_data.id },
   });
   const [attendances, setAttendances] = useState([]);
-  const [deleteStudent, { loading: deleteLoading }] = useMutation(DELETE_STUDENT_FROM_CLASS);
+  const [deleteStudent, { loading: deleteLoading }] = useMutation(
+    DELETE_STUDENT_FROM_CLASS
+  );
 
   useEffect(() => {
     setAttendances([]);
@@ -41,13 +43,15 @@ function ClassesTable({ schedule_data }) {
 
   return (
     <>
-      <p className="p-1">Total Student : {attendances?.length !== 0 ? attendances?.length : "0"}</p>
+      <p className="p-1">
+        Total Student : {attendances?.length !== 0 ? attendances?.length : "0"}
+      </p>
       <div className="relative h-96 overflow-x-auto shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
           <thead className="text-xs sticky top-0 text-gray-700 uppercase bg-primary-white2 dark:bg-primary-black dark:text-gray-400">
             <tr>
               <th scope="col" className="px-6 py-3">
-                NPM
+                UIN
               </th>
               <th scope="col" className="px-6 py-3">
                 Name
@@ -65,11 +69,20 @@ function ClassesTable({ schedule_data }) {
               </tr>
             ) : attendances.length !== 0 ? (
               attendances.map((attendance, index) => (
-                <tr key={attendance.npm} className="dark:bg-gray-800 border-b dark:border-gray-700 hover:bg-primary-white2 dark:hover:bg-gray-700">
+                <tr
+                  key={attendance.npm}
+                  className="dark:bg-gray-800 border-b dark:border-gray-700 hover:bg-primary-white2 dark:hover:bg-gray-700"
+                >
                   <td className="px-6 py-4">{attendance.npm}</td>
                   <td className="px-6 py-4">{attendance.fullname}</td>
                   <td className="px-6 py-4">
-                    <button onClick={() => handleDelete(attendance.npm, index)}>{deleteLoading && deleteIndex === index ? <LoadingAnimation /> : <AiOutlineClose size={20} color="red" />}</button>
+                    <button onClick={() => handleDelete(attendance.npm, index)}>
+                      {deleteLoading && deleteIndex === index ? (
+                        <LoadingAnimation />
+                      ) : (
+                        <AiOutlineClose size={20} color="red" />
+                      )}
+                    </button>
                   </td>
                 </tr>
               ))

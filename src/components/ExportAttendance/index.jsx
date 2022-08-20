@@ -30,7 +30,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_1: d.p_1 === 0 ? "0" : "1",
           },
@@ -41,7 +41,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_2: d.p_2 === 0 ? "0" : "1",
           },
@@ -52,7 +52,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_3: d.p_3 === 0 ? "0" : "1",
           },
@@ -63,7 +63,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_4: d.p_4 === 0 ? "0" : "1",
           },
@@ -74,7 +74,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_5: d.p_5 === 0 ? "0" : "1",
           },
@@ -85,7 +85,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_6: d.p_6 === 0 ? "0" : "1",
           },
@@ -96,7 +96,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_7: d.p_7 === 0 ? "0" : "1",
           },
@@ -107,7 +107,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_8: d.p_8 === 0 ? "0" : "1",
           },
@@ -118,7 +118,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_9: d.p_9 === 0 ? "0" : "1",
           },
@@ -129,7 +129,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_10: d.p_10 === 0 ? "0" : "1",
           },
@@ -140,7 +140,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_11: d.p_11 === 0 ? "0" : "1",
           },
@@ -151,7 +151,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_12: d.p_12 === 0 ? "0" : "1",
           },
@@ -162,7 +162,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_13: d.p_13 === 0 ? "0" : "1",
           },
@@ -173,7 +173,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_14: d.p_14 === 0 ? "0" : "1",
           },
@@ -184,7 +184,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_15: d.p_15 === 0 ? "0" : "1",
           },
@@ -195,7 +195,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_16: d.p_16 === 0 ? "0" : "1",
           },
@@ -206,7 +206,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_17: d.p_17 === 0 ? "0" : "1",
           },
@@ -217,7 +217,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_18: d.p_18 === 0 ? "0" : "1",
           },
@@ -228,7 +228,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_19: d.p_19 === 0 ? "0" : "1",
           },
@@ -239,7 +239,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_20: d.p_20 === 0 ? "0" : "1",
           },
@@ -250,7 +250,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_21: d.p_21 === 0 ? "0" : "1",
           },
@@ -261,7 +261,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_22: d.p_22 === 0 ? "0" : "1",
           },
@@ -272,7 +272,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_23: d.p_23 === 0 ? "0" : "1",
           },
@@ -283,7 +283,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_24: d.p_24 === 0 ? "0" : "1",
           },
@@ -294,7 +294,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_25: d.p_25 === 0 ? "0" : "1",
           },
@@ -305,7 +305,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_26: d.p_26 === 0 ? "0" : "1",
           },
@@ -316,7 +316,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_27: d.p_27 === 0 ? "0" : "1",
           },
@@ -327,7 +327,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_28: d.p_28 === 0 ? "0" : "1",
           },
@@ -338,7 +338,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_29: d.p_29 === 0 ? "0" : "1",
           },
@@ -349,7 +349,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_30: d.p_30 === 0 ? "0" : "1",
           },
@@ -360,7 +360,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_31: d.p_31 === 0 ? "0" : "1",
           },
@@ -371,7 +371,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_32: d.p_32 === 0 ? "0" : "1",
           },
@@ -382,7 +382,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_33: d.p_33 === 0 ? "0" : "1",
           },
@@ -393,7 +393,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_34: d.p_34 === 0 ? "0" : "1",
           },
@@ -404,7 +404,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_35: d.p_35 === 0 ? "0" : "1",
           },
@@ -415,7 +415,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_36: d.p_36 === 0 ? "0" : "1",
           },
@@ -426,7 +426,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_37: d.p_37 === 0 ? "0" : "1",
           },
@@ -437,7 +437,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_38: d.p_38 === 0 ? "0" : "1",
           },
@@ -448,7 +448,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_39: d.p_39 === 0 ? "0" : "1",
           },
@@ -459,7 +459,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_40: d.p_40 === 0 ? "0" : "1",
           },
@@ -470,7 +470,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_41: d.p_41 === 0 ? "0" : "1",
           },
@@ -481,7 +481,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_42: d.p_42 === 0 ? "0" : "1",
           },
@@ -492,7 +492,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_43: d.p_43 === 0 ? "0" : "1",
           },
@@ -503,7 +503,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_44: d.p_44 === 0 ? "0" : "1",
           },
@@ -514,7 +514,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_45: d.p_45 === 0 ? "0" : "1",
           },
@@ -525,7 +525,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_46: d.p_46 === 0 ? "0" : "1",
           },
@@ -536,7 +536,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_47: d.p_47 === 0 ? "0" : "1",
           },
@@ -547,7 +547,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_48: d.p_48 === 0 ? "0" : "1",
           },
@@ -558,7 +558,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_49: d.p_49 === 0 ? "0" : "1",
           },
@@ -569,7 +569,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_50: d.p_50 === 0 ? "0" : "1",
           },
@@ -580,7 +580,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_51: d.p_51 === 0 ? "0" : "1",
           },
@@ -591,7 +591,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_52: d.p_52 === 0 ? "0" : "1",
           },
@@ -602,7 +602,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_53: d.p_53 === 0 ? "0" : "1",
           },
@@ -613,7 +613,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_54: d.p_54 === 0 ? "0" : "1",
           },
@@ -624,7 +624,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_55: d.p_55 === 0 ? "0" : "1",
           },
@@ -635,7 +635,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_56: d.p_56 === 0 ? "0" : "1",
           },
@@ -646,7 +646,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_57: d.p_57 === 0 ? "0" : "1",
           },
@@ -657,7 +657,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_58: d.p_58 === 0 ? "0" : "1",
           },
@@ -668,7 +668,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_59: d.p_59 === 0 ? "0" : "1",
           },
@@ -679,7 +679,7 @@ function ExportAttendance({ data }) {
         setDataMeet((dataMeet) => [
           ...dataMeet,
           {
-            npm: d.student.npm,
+            UID: d.student.npm,
             name: d.student.fullname,
             session_60: d.p_60 === 0 ? "0" : "1",
           },
@@ -694,7 +694,7 @@ function ExportAttendance({ data }) {
       setAllData((allData) => [
         ...allData,
         {
-          npm: d.student.npm,
+          UID: d.student.npm,
           name: d.student.fullname,
           session_1: d.p_1 === 0 ? "0" : "1",
           session_2: d.p_2 === 0 ? "0" : "1",
