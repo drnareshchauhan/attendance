@@ -24,6 +24,7 @@ export const GET_SCHEDULE = gql`
       room
       time
       meet_number
+      roll_no
     }
   }
 `;

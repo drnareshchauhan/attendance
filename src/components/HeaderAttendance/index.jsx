@@ -15,14 +15,18 @@ function HeaderAttendance({ schedule_data, meet }) {
             </td>
             <td className="text-gray-700 dark:text-gray-400">:</td>
             <td>
-              <p className="text-gray-700 dark:text-gray-400">{schedule_data.course.course_name}</p>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.course.course_name}
+              </p>
             </td>
             <td className="w-1/12 py-2">
               <p className="text-gray-700 dark:text-gray-400">Day</p>
             </td>
             <td className="text-gray-700 dark:text-gray-400">:</td>
             <td>
-              <p className="text-gray-700 dark:text-gray-400">{schedule_data.day}</p>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.day}
+              </p>
             </td>
           </tr>
           <tr>
@@ -31,14 +35,18 @@ function HeaderAttendance({ schedule_data, meet }) {
             </td>
             <td className="text-gray-700 dark:text-gray-400">:</td>
             <td>
-              <p className="text-gray-700 dark:text-gray-400">{schedule_data.class.class_name}</p>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.class.class_name}
+              </p>
             </td>
             <td className="w-1/12 py-2">
               <p className="text-gray-700 dark:text-gray-400">Time</p>
             </td>
             <td className="text-gray-700 dark:text-gray-400">:</td>
             <td>
-              <p className="text-gray-700 dark:text-gray-400">{schedule_data.time}</p>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.time}
+              </p>
             </td>
           </tr>
 
@@ -55,9 +63,23 @@ function HeaderAttendance({ schedule_data, meet }) {
             </td>
             <td className="text-gray-700 dark:text-gray-400">:</td>
             <td>
-              <p className="text-gray-700 dark:text-gray-400">{schedule_data.room}</p>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.room}
+              </p>
             </td>
           </tr>
+          <tr>
+            <td className="w-1/12 py-2">
+              <p className="text-gray-700 dark:text-gray-400">Roll No</p>
+            </td>
+            <td className="text-gray-700 dark:text-gray-400">:</td>
+            <td>
+              <p className="text-gray-700 dark:text-gray-400">
+                {schedule_data.roll_no}
+              </p>
+            </td>
+          </tr>
+
           <tr>
             <td className="w-1/12">
               <p className="text-gray-700 dark:text-gray-400">Select Date</p>

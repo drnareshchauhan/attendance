@@ -36,6 +36,9 @@ function UnduhAbsensi() {
                     {d.class.class_name} <br /> {d.course.course_name}
                   </h5>
                   <p className="mb-3 text-sm text-gray-700 dark:text-gray-400">
+                    Roll No: {d.roll_no}
+                  </p>
+                  <p className="mb-3 text-sm text-gray-700 dark:text-gray-400">
                     {d.room} , {d.day} / {d.time}
                   </p>
                   {d.meet_number !== 60 ? (

@@ -7,6 +7,7 @@ export const GET_SCHEDULE_BY_STUDENT = gql`
       time
       room
       day
+      roll_no
       course {
         course_name
       }

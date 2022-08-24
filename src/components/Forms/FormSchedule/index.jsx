@@ -31,6 +31,7 @@ function FormSchedule() {
     time: "",
     day: "",
     room: "Clinics",
+    roll_no: "",
   };
 
   const INITIAL_TIME = {
@@ -69,6 +70,7 @@ function FormSchedule() {
         time: schedule.time,
         day: schedule.day,
         room: schedule.room,
+        roll_no: schedule.roll_no,
       },
     });
   };
@@ -249,6 +251,21 @@ function FormSchedule() {
           <option value="Lecturhall 6">Lecturhall 6</option>
           <option value="Lecturhall 7">Lecturhall 7</option>
         </select>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="roll_no"
+          onChange={handleOnChange}
+          value={schedule.roll_no}
+          // value={className.class_name}
+          // onChange={(e) => {
+          //   setClassName({ ...className, class_name: e.target.value });
+          // }}
+          required
+          placeholder="Roll no: from-to"
+          className="bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        />
       </div>
 
       <div className="flex items-center justify-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">

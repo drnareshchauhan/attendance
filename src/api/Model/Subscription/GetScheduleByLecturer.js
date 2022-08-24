@@ -24,6 +24,7 @@ export const GET_SCHEDULE_BY_LECTURER = gql`
       room
       time
       meet_number
+      roll_no
     }
   }
 `;

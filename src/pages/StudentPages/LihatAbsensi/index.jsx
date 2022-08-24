@@ -72,7 +72,7 @@ function LihatAbsensi() {
                     {d.room} , {d.day} / {d.time}
                   </p>
                   <p className="mb-3 text-sm text-gray-700 dark:text-gray-400">
-                    Session : Ke-{d.meet_number}
+                    No of Sessions : {d.meet_number}
                   </p>
                   <ModalSeeAttendance data={d} npm={npm} role={"student"} />
                 </div>

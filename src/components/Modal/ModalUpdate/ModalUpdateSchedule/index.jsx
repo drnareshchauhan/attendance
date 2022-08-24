@@ -11,7 +11,7 @@ import { GET_LECTURERS } from "../../../../api/Model/Query/GetLecturer";
 import LoadingAnimation from "../../../Loading/LoadingAnimation";
 
 function ModalUpdateSchedule({ data }) {
-  const { id, time, day, room } = data;
+  const { id, time, day, room, roll_no } = data;
   const id_prodi = useSelector((state) => state.prodi.id);
   const { data: dataClasses } = useQuery(GET_CLASS_NAMES, {
     variables: { prodi: id_prodi },
@@ -30,6 +30,7 @@ function ModalUpdateSchedule({ data }) {
     time,
     day,
     room,
+    roll_no,
   };
 
   const INITIAL_TIME = {
@@ -72,7 +73,8 @@ function ModalUpdateSchedule({ data }) {
       scheduleUpdate.nidn === data.lecturer.nidn &&
       scheduleUpdate.time === time &&
       scheduleUpdate.day === day &&
-      scheduleUpdate.room === room
+      scheduleUpdate.room === room &&
+      scheduleUpdate.roll_no === roll_no
     ) {
       Swal.fire({
         position: "top-end",
@@ -92,6 +94,7 @@ function ModalUpdateSchedule({ data }) {
             time: scheduleUpdate.time,
             day: scheduleUpdate.day,
             room: scheduleUpdate.room,
+            roll_no: scheduleUpdate.roll_no,
           },
         });
       }
@@ -129,7 +132,7 @@ function ModalUpdateSchedule({ data }) {
             <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
               <div className="flex justify-between items-center p-5 rounded-t border-b dark:border-gray-600">
                 <h3 className="text-xl font-medium text-gray-900 dark:text-white">
-                  Update Jadwal
+                  Update Schedule
                 </h3>
                 <button
                   onClick={() => {
@@ -296,6 +299,22 @@ function ModalUpdateSchedule({ data }) {
                       <option value="Lecturhall 6">Lecturhall 6</option>
                       <option value="Lecturhall 7">Lecturhall 7</option>
                     </select>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      name="roll_no"
+                      defaultValue={roll_no}
+                      onChange={handleOnChange}
+                      // value={className.class_name}
+                      // onChange={(e) => {
+                      //   setClassName({ ...className, class_name: e.target.value });
+                      // }}
+                      required
+                      autoComplete="off"
+                      placeholder=""
+                      className="bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    />
                   </div>
 
                   <div className="flex items-center justify-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
