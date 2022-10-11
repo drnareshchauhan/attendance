@@ -46,7 +46,7 @@ function ScheduleTable() {
                 O'clock
               </th>
               <th scope="col" className="px-6 py-3">
-                Room
+                Term
               </th>
               <th scope="col" className="px-6 py-3">
                 Session

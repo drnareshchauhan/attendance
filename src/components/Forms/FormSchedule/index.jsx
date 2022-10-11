@@ -30,7 +30,7 @@ function FormSchedule() {
     nidn: "",
     time: "",
     day: "",
-    room: "Clinics",
+    room: "",
     roll_no: "",
   };
 
@@ -240,16 +240,15 @@ function FormSchedule() {
           className="bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
           <option disabled value="">
-            -- Choose Room --
+            -- Choose Term --
           </option>
-          <option value="Clinics">Clinics</option>
-          <option value="Lecturhall 1">Lecturhall 1</option>
-          <option value="Lecturhall 2">Lecturhall 2</option>
-          <option value="Lecturhall 3">Lecturhall 3</option>
-          <option value="Lecturhall 4">Lecturhall 4</option>
-          <option value="Lecturhall 5">Lecturhall 5</option>
-          <option value="Lecturhall 6">Lecturhall 6</option>
-          <option value="Lecturhall 7">Lecturhall 7</option>
+          <option value="1styr">1styr</option>
+          <option value="2nd-I">2nd-I</option>
+          <option value="2nd-II">2nd-II</option>
+          <option value="3rdPart-I-A">3rdPart-I-A</option>
+          <option value="3rdPart-I-B">3rdPart-I-B</option>
+          <option value="3rdPart-II-A">3rdPart-II-A</option>
+          <option value="3rdPart-II-B">3rdPart-II-B</option>
         </select>
       </div>
       <div>
